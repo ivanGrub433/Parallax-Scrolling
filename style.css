@@ -1,0 +1,89 @@
+body, html{
+    margin: 0%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.parallax1{
+    background-image: url("/galaxy-gefb592914_1280.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption {
+    position: relative;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 30px;
+}
+.txt1 span{
+    background-color: #111;
+}
+.txt1{
+    background-color: transparent;
+    font-size: 25px;
+    color: #f7f7f7;
+    text-align: center;
+}
+
+.parallax2{
+    background-image: url("/milky-way-gd239f42c6_1920.jpg");
+    height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.orbit{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.planet-earth{
+   /* position: relative;
+    left: 40%;*/
+    transform: translateY(-10%);
+    animation: floater 3s infinite;
+    transition: ease 2s;
+    top: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    overflow: hidden;
+	transform: translatey(0px);
+}
+.txt2{
+    color: rgb(255, 254, 254);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+.parallax3{
+    background-image: url("/galaxy-gddf1b6c7e_1920.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes floater {
+    0%{transform: translateY(0%);transition: ease 2s;}
+    50%{transform: translateY(10%);transition: ease 2s;}
+  }
